@@ -1,4 +1,23 @@
-\documentclass[]{article}
+\documentclass[a4paper, 12pt,twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc}
+\usepackage{stix}
+
+%new commands
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
+\newcommand*{\pname}{Project X}
+\newcommand*{\cname}{The Publisher}
+\newcommand{\lips}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\cname}
+\fancyhead[RE,LO]{Project Requirements}
+\fancyfoot[CE,CO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
 
 %opening
 \title{Title}
@@ -6,7 +25,25 @@
 
 \begin{document}
 
-\maketitle
+\begin{titlepage} % Suppresses displaying the page number on the title page and the subsequent page counts as page 1
+	
+	\raggedleft % Right align the title page
+	
+	\rule{1pt}{\textheight} % Vertical line
+	\hspace{0.05\textwidth} % Whitespace between the vertical line and title page text
+	\parbox[b]{0.75\textwidth}{ % Paragraph box for holding the title page text, adjust the width to move the title page left or right on the page
+		
+		{\Huge\bfseries Requirements for \\[0.5\baselineskip] \pname}\\[2\baselineskip] % Title
+		{\large\textit{A predictable subtitle}}\\[4\baselineskip] % Subtitle or further description
+		{\Large\textsc{max mustermann}} % Author name, lower case for consistent small caps
+		
+		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+		
+		{\noindent The Publisher~~\plogo}\\[\baselineskip] % Publisher and logo
+	}
+	
+\end{titlepage}
+
 \tableofcontents
 
 \begin{abstract}
@@ -15,132 +52,209 @@
 
 \section{Purpose of the Project}
 \subsection{User Business}
+\lips
 \subsection{Goals of the Project}
-
+\lips
 \section{Stakeholders}
 \subsection{Client}
+\lips
 \subsection{Customer}
+\lips
 \subsection{Other Stakeholders}
+\lips
 \subsection{Hands-On Users of the Project}
+\lips
 \subsection{Personas}
+\lips
 \subsection{Priorities Assinged to Users}
+\lips
 \subsection{User Participation}
+\lips
 \subsection{Maintenance Users and Service Technicans}
+\lips
 
 \section{Mandated Constraints}
 \subsection{Solution Constraints}
+\lips
 \subsection{Implemntion Environment of the Current System}
+\lips
 \subsection{Partner or Collaborative Applications}
+\lips
 \subsection{Off-the-Shelf Software}
+\lips
 \subsection{Anticipated Workplace Environment}
+\lips
 \subsection{Schedule Constraints}
+\lips
 \subsection{Budget Constraints}
+\lips
 \subsection{Enterprise Constraints}
+\lips
 
 \section{Naming Conventions and Terminology}
 \subsection{Glossary of All Terms, Including Acronyms, Used by Stakeholders involved in the Project}
+\lips
 
 \section{Relevant Facts Ans Assumptions}
 \subsection{Relevant Facts}
+\lips
 \subsection{Business Rules}
+\lips
 \subsection{Assumptions}
+\lips
 
 \section{The Scope of the Work}
 \subsection{The Current Situation}
+\lips
 \subsection{The Context of te Work}
+\lips
 \subsection{Work Partitioning}
+\lips
 \subsection{Specifying a Business Use Case (BUC)}
+\lips
 
 \section{Business Data Modell and Data Dictionary}
 \subsection{Business Data Model}
+\lips
 \subsection{Data Dictionary}
+\lips
 
 \section{The Scope of the Product}
 \subsection{Product Bondary}
+\lips
 \subsection{Product Use Case Table}
+\lips
 \subsection{Individual Product Use Cases (PUC's)}
+\lips
 
 \section{Functional Requirements}
 \subsection{Functional Requirements}
+\lips
 
 \section{Look and Feel Requirements}
 \subsection{Apperance Requirements}
+\lips
 \subsection{Style Requirements}
+\lips
 
 \section{Usability and Humanity Requirements}
 \subsection{Ease of Use Requirements}
+\lips
 \subsection{Personalization and Internationalization Requirements}
+\lips
 \subsection{Learning Requirements}
+\lips
 \subsection{Understandability and Politeness Requirements}
+\lips
 \subsection{Accessibility Requirements}
+\lips
 
 \section{Performance Requirements}
 \subsection{Speed and Latency Requirements}
+\lips
 \subsection{Safty-Critical Reqirements}
+\lips
 \subsection{Precision or Accuracy Requirements}
+\lips
 \subsection{Robustnesss or Fault-Tolerance Requirements}
+\lips
 \subsection{Capacity Requirements}
+\lips
 \subsection{Scalability or Extensibility Requirements}
+\lips
 \subsection{Longevity Requirements}
+\lips
 
 \section{Operational and Environmental Requirements}
 \subsection{Expected Physical Environment}
+\lips
 \subsection{Wider Environment Requirements}
+\lips
 \subsection{Requirements for Interfacing with Adjacent Systems}
+\lips
 \subsection{Productization Requirements}
+\lips
 \subsection{Release Requirements}
+\lips
 
 \section{Maintainability and Support Requirements}
 \subsection{Maintenance Requirements}
+\lips
 \subsection{Supportability Requirements}
+\lips
 \subsection{Adaptability Requirements}
+\lips
 
 \section{Security Requirements}
 \subsection{Access Requirements}
+\lips
 \subsection{Integrity Requirements}
+\lips
 \subsection{Privacy Reqirements}
+\lips
 \subsection{Audit Requirements}
+\lips
 \subsection{Immunity Requirements}
+\lips
 
 \section{Cultural Requirements}
 \subsection{Cultural Requirements}
+\lips
 
 \section{Compliance Requirements}
 \subsection{Legal Requirements}
+\lips
 \subsection{Standards Compliance Requirements}
+\lips
 
 \section{Open Issues}
+\lips
 
 \section{Off-the-Shelf Solutions}
 \subsection{Ready-Made Products}
+\lips
 \subsection{Reusable Components}
+\lips
 \subsection{Products That Can Be Copied}
+\lips
 
 \section{New Problems}
 \subsection{Effects on the Current Environment}
+\lips
 \subsection{Effects on the Installed Systems}
+\lips
 \subsection{Potential User Problems}
+\lips
 \subsection{Limitations in the Anticipated Implementation Environment That May Inhibit the New Product}
+\lips
 \subsection{Follow-Up Problems}
+\lips
 
 \section{Tasks}
 \subsection{Project Planning}
+\lips
 \subsection{Planning of the Development Phases}
+\lips
 
 \section{Migration to the New Product}
 \subsection{Requirements for Migration to the New Product}
+\lips
 \subsection{Data That Has to be Modified or Translated for the New System}
+\lips
 
 \section{Risks}
-
+\lips
 \section{Costs}
-
+\lips
 \section{User Documentation and Training}
 \subsection{User Documentation Requirements}
+\lips
 \subsection{Training Requirements}
+\lips
 
 \section{Waiting Room}
+\lips
 
 \section{Ideas for Solution}
-
+\lips
 \end{document}
