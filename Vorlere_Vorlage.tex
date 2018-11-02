@@ -4,12 +4,13 @@
 \usepackage{fancyhdr}
 \usepackage[T1]{fontenc}
 \usepackage{stix}
+\usepackage{graphicx}
 
 %new commands
 \newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
 \newcommand*{\pname}{Project X}
 \newcommand*{\cname}{The Publisher}
-\newcommand{\lips}{Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.}
+\newcommand{\lips}{\textit{Insert your content here.}}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -35,9 +36,12 @@
 		
 		{\Huge\bfseries Requirements for \\[0.5\baselineskip] \pname}\\[2\baselineskip] % Title
 		{\large\textit{A predictable subtitle}}\\[4\baselineskip] % Subtitle or further description
-		{\Large\textsc{max mustermann}} % Author name, lower case for consistent small caps
-		
-		\vspace{0.5\textheight} % Whitespace between the title block and the publisher
+		{\Large\textsc{max mustermann}}\\[4\baselineskip] % Author name, lower case for consistent small caps
+		{
+				\includegraphics[width=5cm]{images/2000px-LaTeX_logo.png}
+
+		}			
+		\vspace{0.4\textheight} % Whitespace between the title block and the publisher
 		
 		{\noindent The Publisher~~\plogo}\\[\baselineskip] % Publisher and logo
 	}
