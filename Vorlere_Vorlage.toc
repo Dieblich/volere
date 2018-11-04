@@ -96,9 +96,10 @@
 \contentsline {subsection}{\numberline {22.1}Requirements for Migration to the New Product}{16}
 \contentsline {subsection}{\numberline {22.2}Data That Has to be Modified or Translated for the New System}{16}
 \contentsline {section}{\numberline {23}Risks}{16}
-\contentsline {section}{\numberline {24}Costs}{17}
-\contentsline {section}{\numberline {25}User Documentation and Training}{17}
-\contentsline {subsection}{\numberline {25.1}User Documentation Requirements}{17}
-\contentsline {subsection}{\numberline {25.2}Training Requirements}{17}
-\contentsline {section}{\numberline {26}Waiting Room}{17}
-\contentsline {section}{\numberline {27}Ideas for Solution}{17}
+\contentsline {subsection}{\numberline {23.1}Risk 1}{17}
+\contentsline {section}{\numberline {24}Costs}{18}
+\contentsline {section}{\numberline {25}User Documentation and Training}{18}
+\contentsline {subsection}{\numberline {25.1}User Documentation Requirements}{18}
+\contentsline {subsection}{\numberline {25.2}Training Requirements}{18}
+\contentsline {section}{\numberline {26}Waiting Room}{18}
+\contentsline {section}{\numberline {27}Ideas for Solution}{18}
